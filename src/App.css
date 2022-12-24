@@ -32,7 +32,42 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+td,
+th {
+  border: 1px solid black;
+  width: 25%;
+  padding: 20px 10px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 95%;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+}
+
+.input div {
+  width: 25%;
 }
